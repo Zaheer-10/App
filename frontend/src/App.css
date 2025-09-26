@@ -29,10 +29,10 @@ body {
 }
 
 /* Sidebar Styles */
-.sidebar {
+/* .sidebar {
   width: 300px;
   flex-shrink: 0;
-}
+} */
 
 .profile-card {
   background: rgba(26, 26, 26, 0.8);
@@ -55,7 +55,7 @@ body {
   height: 200px;
   border-radius: 20px;
   object-fit: cover;
-  border: 3px solid #ff0000;
+  border: 3px solid #900b0b;
   box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
   transition: all 0.3s ease;
 }
@@ -121,7 +121,7 @@ body {
 }
 
 .contact-item:hover {
-  color: #ff0000;
+  color: #a81010;
   transform: translateX(5px);
 }
 
@@ -146,7 +146,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff0000;
+  color: #910d0d;
   cursor: pointer;
   transition: all 0.3s ease;
 }
@@ -198,15 +198,15 @@ body {
 }
 
 .nav-tab:hover {
-  color: #ff0000;
+  color: #a41515;
   border-color: rgba(255, 0, 0, 0.6);
   box-shadow: 0 0 10px rgba(255, 0, 0, 0.2);
 }
 
 .nav-tab.active {
   background: rgba(255, 0, 0, 0.1);
-  color: #ff0000;
-  border-color: #ff0000;
+  color: #890b0b;
+  border-color: #850f0f;
   box-shadow: 0 0 15px rgba(255, 0, 0, 0.3);
 }
 
@@ -312,7 +312,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ff0000;
+  color: #8e0808;
   flex-shrink: 0;
 }
 
@@ -364,7 +364,7 @@ body {
 
 .stats-subtitle::before {
   content: '⚡';
-  color: #ff0000;
+  color: #960606;
 }
 
 .tech-icons {
@@ -523,7 +523,12 @@ body {
   }
   
   .sidebar {
-    width: 100%;
+    width: 300px;
+    flex-shrink: 0;
+    height: calc(100vh - 40px); /* Adjust height to leave space above and below */
+    padding-top: 20px; /* Space above */
+    padding-bottom: 20px; /* Space below */
+    box-sizing: border-box; /* Include padding in the height calculation */
   }
   
   .profile-card {

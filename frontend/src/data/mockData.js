@@ -15,6 +15,14 @@ const mockData = {
     {
       title: "Deployments",
       description: "Docker, K8s & cloud CI/CD for smooth releases."
+    },
+    {
+      title: "Deployments",
+      description: "Docker, K8s & cloud CI/CD for smooth releases."
+    },
+    {
+      title: "Deployments",
+      description: "Docker, K8s & cloud CI/CD for smooth releases."
     }
   ],
 
@@ -28,7 +36,8 @@ const mockData = {
     { name: "AWS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },
     { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
     { name: "FastAPI", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg" },
-    { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" }
+    { name: "React", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" },
+    
   ],
 
   education: [

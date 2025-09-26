@@ -7,12 +7,12 @@ const Sidebar = () => {
       <div className="profile-card">
         <div className="profile-image-container">
           <img
-            src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
+            src="/images/profile.png"
             alt="Zaheer K Z Profile"
             className="profile-image"
           />
           <div className="profile-overlay">
-            <div className="profile-text">ARTIFICIAL INTELLIGENCE</div>
+            <div className="profile-text"></div>
           </div>
         </div>
         
